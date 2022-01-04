@@ -1,13 +1,32 @@
 body{
     font-family: 'Poppins', sans-serif;
+    margin: 0%;
 }
 h1{
     font-size: 50px;
 }
+section{
+    display: flex;
+}
 .header-color{
     color: orange;
 }
-.linkedin{
-    background-image: linear-gradient(orange,tomato);
-    font-size: 10px 40px;
+.link-button{
+    text-decoration: none;
+    background-image: linear-gradient(salmon,tomato);
+    padding: 10px 40px;
+    border-radius: 5px;
+    color: white;
+    font-weight: 700;
+}
+.section1{
+    background-image: url(images/top-banner.png);
+    background-repeat: no-repeat;
+}
+.half-width{
+    width: 50%;
+    padding-left: 5%;
+}
+.half-width img{
+    width: 80%;
 }
